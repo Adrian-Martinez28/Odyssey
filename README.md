@@ -54,7 +54,7 @@ Contiene el núcleo de la aplicación web:
 Funciones auxiliares como:
 
 - `get-supabase.ts`: Conexión a Supabase.
-- `utils.ts`: Funciones reutilizables.
+- `utils.ts`: Contiene funciones auxiliares. Actualmente implementa parseBudgetRange, una función que extrae el valor máximo de presupuesto desde una cadena de texto, convirtiéndolo en número entero para ser usado en las recomendaciones.
 
 ### `/types`
 
@@ -65,10 +65,6 @@ Funciones auxiliares como:
 Archivos estáticos accesibles desde el navegador:
 
 - `favicon.svg`, `Fondo.png`, `Logo Odyssey.svg`, `Personaje.png`, etc.
-
-### `/supabase` y `/server`
-
-Directorios para configuraciones adicionales o extensiones.
 
 ### Archivos Clave
 
