@@ -1,14 +1,14 @@
-# Tesis de Pregrado – Prototipo Web: Odyssey
+# Tesis de Pregrado
 
 Este es el repositorio de la Tesis de Pregrado de **Jorge Adrián Martínez Gómez**, titulada:
 
 > **"Prototipo web de un sistema de recomendación para la compra de computadores portátiles."**
 
-Odyssey es un prototipo web desarrollado como parte de una tesis de grado en Ingeniería en Sistemas. Su propósito es asistir a los usuarios en la compra de computadores portátiles, realizando recomendaciones inteligentes basadas en sus necesidades mediante modelos de inteligencia artificial y reglas de asociación.
+Odyssey es un prototipo web desarrollado como parte de una tesis de grado en Ingeniería en Sistemas. Su propósito es asistir a los usuarios en la compra de computadores portátiles, realizando recomendaciones inteligentes basadas en sus necesidades mediante modelos de inteligencia artificial.
 
 ---
 
-## ✅ Requisitos Previos
+## Requisitos Previos
 
 - Tener instalado [Docker](https://www.docker.com/)
 
@@ -35,17 +35,16 @@ Esto iniciará la aplicación en `http://localhost:3000`.
 ## 📁 Contenido del Repositorio
 
 ### `/app`
-Carpeta principal que contiene la lógica central del frontend y los endpoints internos de la API.
+Contiene el núcleo de la aplicación web:
 
-- **`/api`**: Define las rutas del backend como microservicios:
+- **`/api`**: Módulos que procesan lógica del sistema:
   - `chat/route.ts`: Gestión de mensajes del usuario y respuestas de IA.
   - `generate-questions/route.ts`: Generación dinámica de preguntas.
-  - `get-recommendations/route.ts`: Lógica de recomendación con reglas de asociación.
-  - `recommendations/`: Carpeta reservada para extensiones.
+  - `get-recommendations/route.ts`: Lógica de recomendación.
 
 - **`/components`**: Componentes visuales reutilizables (Chat, animaciones, etc.).
 
-- **`/data/questions.ts`**: Contiene las preguntas base del sistema de recomendación.
+- **`/data/questions.ts`**: Contiene la pregunta base del sistema de recomendación(Presupuesto).
 
 - **`layout.tsx`**: Estructura visual global de la app.
 
