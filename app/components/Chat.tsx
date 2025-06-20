@@ -32,12 +32,12 @@ export default function Chat({ answers }: ChatProps) {
       try {
         hasFetched.current = true;
 
-        // First fetch questions to get context
+        
         const questionsResponse = await fetch('/api/generate-questions');
         if (!questionsResponse.ok) throw new Error('Error al obtener preguntas');
         const questions = await questionsResponse.json();
 
-        // Create context object mapping questions to answers
+        
         const context = questions.reduce((acc: Record<string, any>, q: any) => {
           acc[q.id] = {
             question: q.question,

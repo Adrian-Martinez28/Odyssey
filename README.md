@@ -1,4 +1,4 @@
-# 🧠 Tesis de Pregrado – Prototipo Web: Odyssey
+# Tesis de Pregrado – Prototipo Web: Odyssey
 
 Este es el repositorio de la Tesis de Pregrado de **Jorge Adrián Martínez Gómez**, titulada:
 

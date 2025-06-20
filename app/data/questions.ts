@@ -7,7 +7,7 @@ export interface Question {
 const minBudget = 895000;
 const maxBudget = 15749900;
 
-const budgetSteps = 5; // Number of budget options
+const budgetSteps = 5; 
 const budgetIncrement = (maxBudget - minBudget) / budgetSteps;
 
 export const questions: Question[] = [
@@ -24,5 +24,4 @@ export const questions: Question[] = [
     }),
   },
 
-  // Add more questions as needed
 ];
