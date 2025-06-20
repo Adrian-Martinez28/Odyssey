@@ -80,14 +80,6 @@ Archivos estáticos accesibles desde el navegador:
 
 ---
 
-## 🧑‍💻 Autor
-
-**Jorge Adrián Martínez Gómez**  
-Estudiante de Ingeniería en Sistemas  
-Correo: `tu-correo@ejemplo.com`
-
----
-
 ## 📩 Nota para Evaluación
 
 Para acceder al sistema desplegado, visita el siguiente enlace:
