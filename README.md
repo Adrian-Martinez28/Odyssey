@@ -54,7 +54,7 @@ Contiene el núcleo de la aplicación web:
 Funciones auxiliares como:
 
 - `get-supabase.ts`: Conexión a Supabase.
-- `utils.ts`: Contiene funciones auxiliares. Actualmente implementa parseBudgetRange, una función que extrae el valor máximo de presupuesto desde una cadena de texto, convirtiéndolo en número entero para ser usado en las recomendaciones.
+- `utils.ts`: Contiene funciones auxiliares.
 
 ### `/types`
 
@@ -90,11 +90,20 @@ Correo: `tu-correo@ejemplo.com`
 
 ## 📩 Nota para Evaluación
 
-Para poder acceder al sistema desplegado en Railway o activar la base de datos, por favor comunicarse por correo con el autor. La app puede requerir activación previa.
+Para acceder al sistema desplegado, visita el siguiente enlace:
 
----
+🔗 [https://odyssey-production-8859.up.railway.app/](https://odyssey-production-8859.up.railway.app/)
 
-## 📄 Licencia
+Si necesita activar la base de datos o hay algún problema de conexión, por favor comunicarse con el autor al correo:
 
-Este proyecto es académico y no tiene fines comerciales.
+📧 **jorge.adrian.martinez@correounivalle.edu.co**
+
+La aplicación puede requerir activación previa desde Railway para su correcto funcionamiento.
+
+
+
+
+
+
+
 
